@@ -7,8 +7,9 @@ lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://dionhikes.logiclater.com # the base hostname & protocol for your site
-git_address: https://github.com/blinx615/blinx615.github.io/
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+insta_address: https://www.instagram.com/dionjones191/
+git_address: https://github.com/blinx615/
+#git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 #Bind to all IPs
 host: 0.0.0.0
