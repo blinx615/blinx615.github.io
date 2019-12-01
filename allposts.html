@@ -7,11 +7,19 @@ sectionid: blog
 
 <div class="container">
     <div class="inner-content">
-        <h1>All Posts</h1> {% for page in site.posts %}
-        <p>
-            <strong><a href="{{ page.url | relative_url }}">{{ page.title }}</a></strong>
-            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
-        </p>
-        {% endfor %}
+        <h1>All Posts</h1>    
+        {% for post in site.posts %}
+    <div class="row">
+        <div class="col-md-9">
+            <h3 class="header-light regular-pad">{{ post.title }}</h2>
+            <h6 class="text-muted">{{ post.date | date :"%b %d, %Y" }} | {{ post.author }}</h6>
+              <p class="lead">{{ post.content | truncatewords: 1000 }}</p>
+        </div>
+        <div class="col-md-3 text-center">
+            <img src="{{ post.image }}" class="img-responsive">
+        </div>
+    </div>
+    <hr>
+    {% endfor %}
     </div>
 </div>

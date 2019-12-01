@@ -6,7 +6,7 @@ description: >
 lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://dionhikes.logiclater.com # the base hostname & protocol for your site
+url: https://www.logiclater.com # the base hostname & protocol for your site
 insta_address: https://www.instagram.com/dionjones191/
 git_address: https://github.com/blinx615/
 #git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
@@ -18,6 +18,8 @@ host: 0.0.0.0
 # comment out this to use default Bootstrap
 bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
+theme:
+  disqus_shortname: "dionhikes"
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -34,7 +36,7 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
-timezone: Europe/Berlin
+timezone: America/New_York
 defaults:
 - scope:
     path: _posts
