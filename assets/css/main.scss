@@ -85,3 +85,13 @@ body {
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
 }
+
+.jumbotron .container {
+  background:rgba(171,171,171,0.7);
+  box-shadow: 0 0 5px 10px rgba(171,171,171,0.7);
+  border-radius: 15px;
+}
+
+p {
+  font-size: 14px;
+}
