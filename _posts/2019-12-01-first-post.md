@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The quant beginnings..."
+title:  "The quaint beginnings..."
 author: Dion
 tags: [feature]
 ---
