@@ -2,7 +2,7 @@
 layout: post
 title:  "The quaint beginnings..."
 author: Dion
-tags: [feature]
+tags: [feature,website,update]
 ---
 I am beginning this as a side-project to hold my trip reports as well as post any informationg that is interesting to me regarding camping gear and anything backpacking related. The first thing I will be doing is going through previous trips and getting them documented to the best of my memory.
 
