@@ -90,6 +90,13 @@ body {
   position:relative;
 }
 
+@supports (-ms-ime-align:auto) {
+  .jumbotron .container {
+    background: rgba(255,255,255,0.7);
+    box-shadow: 0 0 80px 30px rgba(255,255,255,0.9);
+  }
+}
+
 .jumbotron .container p,h1,h6 {
   z-index:1;
   position:relative;
