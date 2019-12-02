@@ -4,6 +4,12 @@ sectionid: blog
 ---
 
 <div class="header-container jumbotron">
+        <svg width="0" height="0"> 
+                <filter id="filter">
+                    <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" />
+                    <feDisplacementMap in="SourceGraphic" scale="180" />
+                </filter>
+            </svg>
     <div class="container">
         <h1>{{ site.tags['feature'].first.title }}</h1>
         <h6 class="text-dark">{{ site.tags['feature'].first.date | date :"%b %d, %Y" }} | {{ site.tags['feature'].first.author }}</h6>
