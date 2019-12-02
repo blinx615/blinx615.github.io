@@ -18,9 +18,8 @@ host: 0.0.0.0
 # comment out this to use default Bootstrap
 bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
-theme:
-  disqus_shortname: "dionhikes"
-  
+disqus_shortname: "dionhikes"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
