@@ -90,13 +90,6 @@ body {
   position:relative;
 }
 
-@supports (-ms-ime-align:auto) {
-  .jumbotron .container {
-    background: rgba(255,255,255,0.7);
-    box-shadow: 0 0 80px 30px rgba(255,255,255,0.9);
-  }
-}
-
 .jumbotron .container p,h1,h6 {
   z-index:1;
   position:relative;
@@ -105,15 +98,20 @@ body {
 .jumbotron .container::before {
   content:"";
   position:absolute;
-  left:-3%;
-  top:-5%;
+  left: -3%;
   width:106%;
   height:100%;
-  z-index:1;
+  z-index:0;
   filter: url(#filter);
-  background: rgba(255,255,255,0.7);
-  box-shadow: 0 0 80px 30px rgba(255,255,255,0.9);
+  box-shadow: 0 1000px 80px 30px rgba(255,255,255,0.9);
   border-radius: 15px;
+  top: -1000px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .jumbotron .container::before {
+    height:300px
+  }
 }
 
 p {
